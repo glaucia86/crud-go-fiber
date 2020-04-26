@@ -1,7 +1,7 @@
 package main
 
 import (
-	"api-livro/src"
+	"api-product/src"
 
 	"github.com/gofiber/fiber"
 )

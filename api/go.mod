@@ -1,4 +1,4 @@
-module api-livro
+module api-product
 
 go 1.14
 
