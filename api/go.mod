@@ -1,4 +1,4 @@
-module api-book/v1
+module api-livro
 
 go 1.14
 

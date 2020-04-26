@@ -1,13 +1,14 @@
 package main
 
-import "github.com/gofiber/fiber"
+import (
+	"api-livro/src"
 
+	"github.com/gofiber/fiber"
+)
+
+// main função responsável por levantar o servidor da aplicação em Go
 func main() {
 	app := fiber.New()
-
-	app.Get("/api", func(c *fiber.Ctx) {
-		c.Send("Sejam bem-vindos(as) a API Go + Fiber + PostGreSQL + Azure!")
-	})
-
+	src.Routes(app)
 	app.Listen(3000)
 }
