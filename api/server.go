@@ -3,6 +3,8 @@ package main
 import (
 	"api-product/src"
 
+	"api-product/src/routes"
+
 	"github.com/gofiber/fiber"
 )
 
@@ -10,7 +12,9 @@ import (
 func main() {
 	app := fiber.New()
 
-	src.Routes(app)
+	src.RouteDefault(app)
+
+	routes.ProductRoutes(app)
 
 	app.Listen(3000)
 }
