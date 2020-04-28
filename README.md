@@ -43,6 +43,7 @@ Como dito durante as lives e vídeos, sempre estaremos citando links e recursos 
 - ✅ **[Documentação Fiber Web Framework](https://docs.gofiber.io/)**
 - ✅ **[Documentação Oficial - Golang](http://www.golangbr.org/doc/)**
 - ✅ **[Azure for Golang Developers](https://docs.microsoft.com/azure/developer/go/?WT.mc_id=golangstudies-github-gllemos)**
+- ✅ **[Aprenda Go com Testes](https://larien.gitbook.io/aprenda-go-com-testes/)
 
 ## Tenho Dúvidas... O que Faço?! ❓
 
