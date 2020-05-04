@@ -20,7 +20,13 @@ Desenvolvimento de uma aplicação CRUD com Golang usando o Fiber Web Framework 
 > gofmt -w .
 ```
 
-> esse comando precisa, por enquanto, ser executado, devido a extensão do Golang do Visual Code, que não está realizando a formatação dos arquivos de maneira devida no Windows. (somente quando alteramos qualquer linha de código nos arquivos).
+ou
+
+```
+> gofmt -l .
+```
+
+> esses comandos precisam, por enquanto, ser executado, devido a extensão do Go Visual Code, que não está realizando a formatação dos arquivos de maneira devida no Windows. (somente quando alteramos qualquer linha de código nos arquivos).
 
 2. Agora, basta entrar na pasta do projeto `api` e executar o seguinte comando:
 
@@ -41,8 +47,8 @@ Desenvolvimento de uma aplicação CRUD com Golang usando o Fiber Web Framework 
 Como dito durante as lives e vídeos, sempre estaremos citando links e recursos importantes que direcionarão para: documentações, cursos gratuitos, livros e conteúdos relacionados a Golang. Abaixo, segue uma lista desses recursos, que são considerados leituras, cursos ou livros recomendados:
 
 - ✅ **[Documentação Fiber Web Framework](https://docs.gofiber.io/)**
-- ✅ **[Documentação Oficial - Golang](http://www.golangbr.org/doc/)**
-- ✅ **[Azure for Golang Developers](https://docs.microsoft.com/azure/developer/go/?WT.mc_id=golangstudies-github-gllemos)**
+- ✅ **[Documentação Oficial - Go](http://www.golangbr.org/doc/)**
+- ✅ **[Azure for Go Developers](https://docs.microsoft.com/azure/developer/go/?WT.mc_id=golangstudies-github-gllemos)**
 - ✅ **[Aprenda Go com Testes](https://larien.gitbook.io/aprenda-go-com-testes/)**
 
 ## Tenho Dúvidas... O que Faço?! ❓
