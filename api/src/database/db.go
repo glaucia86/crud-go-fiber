@@ -12,7 +12,7 @@ import (
 // Aqui estamos criando uma variável para a base de dados:
 var db *gorm.DB
 
-func initDatabase() {
+func InitDatabase() {
 
 	// Aqui estamos carregando o arquivo '.env':
 	envFile := godotenv.Load()
@@ -30,7 +30,7 @@ func initDatabase() {
 	dbConnectionString := fmt.Sprintf("host=%s user=%s dbname=%s sslmode=disable password=%s", dbHost, username, dbName, password)
 	fmt.Println("Conexão realizada com sucesso!")
 
-	conn, err := gorm.Open("postgress", dbConnectionString)
+	conn, err := gorm.Open("postgres", dbConnectionString)
 	if err != nil {
 		fmt.Println("Erro ao realizar a conexão com a Base de Dados..: ", err)
 	}

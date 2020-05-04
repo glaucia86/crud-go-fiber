@@ -14,7 +14,7 @@ import (
 func main() {
 	app := fiber.New()
 
-	database.ReturnDatabase()
+	database.InitDatabase()
 
 	src.RouteDefault(app)
 
