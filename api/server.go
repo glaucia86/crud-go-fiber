@@ -12,9 +12,12 @@ import (
 func main() {
 	app := fiber.New()
 
+	// initDatabase()
+
 	src.RouteDefault(app)
 
 	routes.ProductRoutes(app)
 
 	app.Listen(3000)
+
 }
