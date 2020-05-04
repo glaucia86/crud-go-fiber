@@ -1,6 +1,3 @@
-// Info sobre como realizar connection com Postgresql + GORM
-// https://gist.github.com/adigunhammedolalekan/d65145512cb1de55e40d74a37fe34f5a
-
 package database
 
 import (
@@ -8,12 +5,12 @@ import (
 	"os"
 
 	"github.com/jinzhu/gorm"
-	_ "github.com/jinzhu/gorm/dialects/postgres"
+	_ "github.com/jinzhu/gorm/dialects/postgres" //lib postgres para fazer a conexão com a base de dados
 	"github.com/joho/godotenv"
 )
 
 // Aqui estamos criando uma variável para a base de dados:
-var database *gorm.DB
+var db *gorm.DB
 
 func initDatabase() {
 
@@ -38,7 +35,12 @@ func initDatabase() {
 		fmt.Println("Erro ao realizar a conexão com a Base de Dados..: ", err)
 	}
 
-	database = conn
+	db = conn
 
 	defer conn.Close()
+}
+
+//ReturnDatabase ... Aqui vamos retornar toda a conexão com a base de dados!
+func ReturnDatabase() *gorm.DB {
+	return db
 }

@@ -5,6 +5,8 @@ import (
 
 	"api-product/src/routes"
 
+	"api-product/src/database"
+
 	"github.com/gofiber/fiber"
 )
 
@@ -12,7 +14,7 @@ import (
 func main() {
 	app := fiber.New()
 
-	// initDatabase()
+	database.ReturnDatabase()
 
 	src.RouteDefault(app)
 
