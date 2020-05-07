@@ -37,7 +37,7 @@ ou
 3. Abre o postman e digite a URL da API: (GET) `localhost:3000/api`. Se aparecer a seguinte mensagem:
 
 ```bash
-> Sejam bem-vindos(as) a API Golang + Fiber + PostGreSQL + Azure!
+> Sejam bem-vindos(as) ao API Golang + Fiber + PostGreSQL + Azure!
 ```
 
 É porque a API está executando corretamente! 
