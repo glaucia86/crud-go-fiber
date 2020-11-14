@@ -2,15 +2,15 @@
 
 [![bit-go.png](https://i.postimg.cc/s204FQ2b/bit-go.png)](https://postimg.cc/GBGyGpGj)
 
-Desenvolvimento de uma aplicação CRUD com Golang usando o Fiber Web Framework persistindo os dados localmente no PostgreSQL. E ao final, iremos realizar o deploy dessa API no **[Azure App Service](https://azure.microsoft.com/services/app-service/web/?WT.mc_id=crudgolangfiber-github-gllemos)**!
+Desenvolvimento de uma aplicação CRUD com Golang usando o Fiber Web Framework persistindo os dados localmente no PostgreSQL. E ao final, iremos realizar o deploy dessa API no **[Azure App Service](https://azure.microsoft.com/services/app-service/web/?WT.mc_id=javascript-0000-gllemos)**!
 
 ## Recursos Utilizados 🚀
 
-* **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=crudgolangfiber-github-gllemos)**
+* **[Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=javascript-0000-gllemos)**
 * **[Golang](https://golang.org/doc/install)**
-* **[Extension Golang - Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go&WT.mc_id=crudgolangfiber-github-gllemos)**
+* **[Extension Golang - Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.Go&WT.mc_id=javascript-0000-gllemos)**
 * **[Fiber](https://gofiber.io/)**
-* **[Azure App Service Web Apps](https://docs.microsoft.com/azure/app-service/?WT.mc_id=crudgolangfiber-github-gllemos)**
+* **[Azure App Service Web Apps](https://docs.microsoft.com/azure/app-service/?WT.mc_id=javascript-0000-gllemos)**
 
 ## Executando Aplicação Localmente 🔥
 
@@ -48,7 +48,7 @@ Como dito durante as lives e vídeos, sempre estaremos citando links e recursos 
 
 - ✅ **[Documentação Fiber Web Framework](https://docs.gofiber.io/)**
 - ✅ **[Documentação Oficial - Go](http://www.golangbr.org/doc/)**
-- ✅ **[Azure for Go Developers](https://docs.microsoft.com/azure/developer/go/?WT.mc_id=golangstudies-github-gllemos)**
+- ✅ **[Azure for Go Developers](https://docs.microsoft.com/azure/developer/go/?WT.mc_id=javascript-0000-gllemos)**
 - ✅ **[Aprenda Go com Testes](https://larien.gitbook.io/aprenda-go-com-testes/)**
 
 ## Tenho Dúvidas... O que Faço?! ❓
